@@ -13,6 +13,16 @@ export class Component {}
 
 => An app's components typically define many views, arranged hierarchically. Angular provides the Router service to help you define navigation paths among views.
 
+##### Installing angular
+To create angular project install the angular cli
+```ts
+npm install @angular/cli@latest     # to install the latest version locally
+ng new angular_project_name
+ng serve # to bring up the development server, default port is 4200
+ng generate # to generate the component and modules files dynamically
+```
+
+
 #### RxJs (Reactive Extension of Javascript)
 defining an observable: 
 ```
