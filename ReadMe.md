@@ -1,4 +1,12 @@
 ### Angular
+
+High level architecture: 
+1. Module
+2. Components
+3. Directives
+4. Routing
+5. Service 
+
 Angular is a component-based framework.
 A parent component can pass data to its child by binding the values to the child's component property. A child component has no knowledge of where the data came from. A child component can pass data to its parent (without knowing who the parent is) by emitting events. This architecture makes components self-contained and reusable.
 
@@ -36,3 +44,5 @@ myObs.subscribe( () => {
 });
 ```
 One thing to note is that Observables under RxJs are lazy. This means that if there's no subscribe call on myObs$, no click event handler is created. Observables only run when they know someone's listening in to the data they're emitting.
+
+Adding more to Rxjs
